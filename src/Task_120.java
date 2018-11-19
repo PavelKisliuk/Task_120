@@ -23,7 +23,7 @@ public class Task_120 {
 	private int rows;
 	private int columns;
 	//-----------------------------------------------------------------------------constructors
-	/*public*/ private Area(String path)
+	/*public*/ private Area(final String path)
 	{
 		try(final Scanner input = new Scanner(Paths.get(path))) {
 			if(input.hasNext()) {
